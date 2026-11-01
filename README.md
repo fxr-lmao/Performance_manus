@@ -21,3 +21,10 @@ The IPA is fakesigned (signed ad hoc with `ldid`). Your sideloading tool re-sign
 Minecraft needs **JIT** to run at a usable speed. See the [JIT guide](https://wiki.angelauramc.dev/wiki/faq/ios/JIT.html) for the right method for your iOS version.
 
 Amethyst is made by AngelAuraMC and its contributors. See the [upstream license](https://github.com/AngelAuraMC/Amethyst-iOS/blob/main/LICENSE).
+
+## Minecraft 26.3 (unofficial test patch)
+
+Amethyst can't run Minecraft 26.3 out of the box (26.3 switched to SDL3). The
+[`amethyst-sdl-shim`](amethyst-sdl-shim/README.md) folder has an unofficial compatibility layer, with install
+steps. It's a first test build for keyboard and mouse that hasn't been tried on an iPad yet, so use a separate
+test world.

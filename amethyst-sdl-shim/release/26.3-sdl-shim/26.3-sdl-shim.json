@@ -1,0 +1,34 @@
+{
+  "id": "26.3-sdl-shim",
+  "inheritsFrom": "26.3",
+  "type": "release",
+  "mainClass": "net.minecraft.client.main.Main",
+  "releaseTime": "2026-09-15T11:23:02+00:00",
+  "time": "2026-09-15T11:23:02+00:00",
+  "javaVersion": {
+    "component": "java-runtime-epsilon",
+    "majorVersion": 25
+  },
+  "arguments": {
+    "game": [],
+    "jvm": [
+      "-javaagent:${library_directory}/dev/amethyst/sdlshim/0.1.0/sdlshim-0.1.0.jar",
+      "-Dorg.lwjgl.vulkan.libname=amethyst-vulkan-disabled",
+      "-Dorg.lwjgl.spvc.libname=libspirv-cross-c-shared.0.dylib",
+      "-Damethyst.sdlshim.debug=true"
+    ]
+  },
+  "libraries": [
+    {
+      "name": "dev.amethyst:sdlshim:0.1.0",
+      "downloads": {
+        "artifact": {
+          "path": "dev/amethyst/sdlshim/0.1.0/sdlshim-0.1.0.jar",
+          "sha1": "0a93f6f71c8a35280b830d2debbdf36dc0706001",
+          "size": 399192,
+          "url": "https://raw.githubusercontent.com/fxr-lmao/Performance_manus/refs/heads/claude/funny-newton-f07uqe/amethyst-sdl-shim/release/sdlshim-0.1.0.jar"
+        }
+      }
+    }
+  ]
+}
